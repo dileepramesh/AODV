@@ -1,0 +1,38 @@
+add_neighbors n2 to n1
+add_neighbors n2 to n3
+add_neighbors n1 to n2
+add_neighbors n3 to n2
+add_neighbors n4 to n3
+add_neighbors n3 to n4
+sleep 20
+show_route n1
+show_route n2
+show_route n3
+show_route n4
+sleep 1
+send_message n1 to n4 hey@how@have@you@been?!
+sleep 1
+show_messages n4
+sleep 1
+show_log n1
+show_log n2
+show_log n3
+show_log n4
+sleep 1
+show_route n1
+show_route n2
+show_route n3
+show_route n4
+sleep 1
+deactivate_link n3
+sleep 50
+show_route n1
+show_route n2
+show_route n3
+show_route n4
+activate_link n3
+sleep 20
+show_route n1
+show_route n2
+show_route n3
+show_route n4

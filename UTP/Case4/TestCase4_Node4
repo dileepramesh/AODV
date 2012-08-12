@@ -1,0 +1,10 @@
+2012-05-11 21:37:46,576 - node n4 started on port 3300 with pid 4464
+2012-05-11 21:38:09,337 - ['HELLO_MESSAGE', 'n3', 'Hello message from n3']
+2012-05-11 21:38:09,345 - ['HELLO_MESSAGE', 'n4', Sending hello message to n3']
+2012-05-11 21:38:10,369 - ['USER_MESSAGE', 'n1', 'n4', 'hey how have you been?! ']
+2012-05-11 21:38:19,339 - ['HELLO_MESSAGE', 'n3', 'Hello message from n3']
+2012-05-11 21:38:19,347 - ['HELLO_MESSAGE', 'n4', Sending hello message to n3']
+2012-05-11 21:38:29,342 - ['HELLO_MESSAGE', 'n3', 'Hello message from n3']
+2012-05-11 21:38:29,348 - ['HELLO_MESSAGE', 'n4', Sending hello message to n3']
+2012-05-11 21:38:39,344 - ['HELLO_MESSAGE', 'n3', 'Hello message from n3']
+2012-05-11 21:38:39,350 - ['HELLO_MESSAGE', 'n4', Sending hello message to n3']

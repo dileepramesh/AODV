@@ -1,0 +1,11 @@
+add_neighbors n2 to n1
+add_neighbors n2 to n3
+add_neighbors n1 to n2
+add_neighbors n3 to n2
+sleep 10
+show_route n1
+show_route n2
+show_route n3
+sleep 1
+send_message n1 to n3 hey@how@have@you@been?!
+sleep 1
